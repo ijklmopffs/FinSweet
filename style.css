@@ -1,0 +1,359 @@
+body {
+  margin: 0;
+  font-family: "Roboto Condensed";
+  font-weight: normal;
+  font-style: normal;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #0d0d0d;
+}
+nav h1 {
+  color: white;
+}
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  opacity: 0.9;
+}
+nav button {
+  padding: 15px 48px;
+  background-color: #ffd2a4;
+  border-radius: 12px;
+}
+header {
+  background-image: url(./images/woman-in-orange-coat-with-black-and-brown-scarf-5418305.svg);
+  height: 100vh;
+  position: relative;
+}
+.intro {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  color: white;
+}
+.intro span {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.intro h2 {
+  font-weight: 800;
+  font-size: 40px;
+  max-width: 400px;
+  margin: 0;
+  margin-top: 5px;
+}
+.intro button {
+  padding: 15px 50px;
+  background-color: #ffd2a4;
+  border-radius: 12px;
+  border: 0;
+  margin-top: 10px;
+}
+.intro p {
+  max-width: 240px;
+  margin-top: 24px;
+}
+
+/* mid section */
+.church_mid {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.prayer_box_container {
+  display: flex;
+}
+
+.prayer_box {
+  background-color: #fff5eb;
+  max-width: 300px;
+  padding: 20px;
+  margin-left: 100px;
+}
+
+.text {
+  text-align: center;
+  max-width: 850px;
+  margin: 0 auto;
+  font-weight: 400;
+}
+
+.love_and_compassion button {
+  display: flex;
+  padding: 15px 50px;
+  background-color: #ffd2a4;
+  border-radius: 12px;
+  border: 0;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.love_images {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.love_images img:first-child {
+  position: absolute;
+  z-index: 2;
+  bottom: 30%;
+  right: 66%;
+}
+
+.love_images img:last-child {
+  position: absolute;
+  left: 66%;
+  bottom: 30%;
+  z-index: 2;
+}
+
+.love_images img:nth-child(2) {
+  position: relative;
+  z-index: 1;
+}
+.mission {
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+}
+.transform {
+  text-transform: uppercase;
+  font-weight: 200;
+}
+.max-width {
+  max-width: 384px;
+  font-weight: normal;
+  font-style: normal;
+}
+.benefits {
+  display: flex;
+  background-color: #f5f2f0;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.margin {
+  margin: 0;
+  margin-top: 50px;
+}
+.benefits h2 {
+  font-size: 32px;
+  margin: 0;
+  margin-top: 5px;
+  max-width: 300px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.benefits img {
+  height: 300px;
+  margin: 10px;
+}
+.benefits_images {
+  position: relative;
+}
+h5 {
+  position: absolute;
+  right: 80%;
+  top: 35%;
+  left: 2%;
+  color: white;
+  font-size: 18px;
+}
+
+.benefits_text {
+  position: absolute;
+  font-size: 5px;
+  font-weight: normal;
+  font-style: normal;
+  width: 200px;
+  top: 55%;
+  left: 2%;
+  right: 10%;
+  color: white;
+  font-size: 18px;
+}
+.second_span {
+  position: absolute;
+  right: 55%;
+  top: 70%;
+  left: 27%;
+  color: white;
+  font-size: 18px;
+}
+.third_span {
+  position: absolute;
+  font-size: 18px;
+  top: 80%;
+  left: 52%;
+  color: white;
+  right: 29%;
+}
+.fourth_span {
+  position: absolute;
+  font-size: 18px;
+  width: 200px;
+  top: 80%;
+  left: 77%;
+  color: white;
+  right: 25%;
+}
+.upcoming_sessions {
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.angels {
+  width: 500px;
+}
+.container_text {
+  background-color: #fff5eb;
+  margin: 0 auto;
+  margin-left: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.container_text button {
+  padding: 15px 50px;
+  background-color: black;
+  color: #ffd2a4;
+  border-radius: 12px;
+  border: 0;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.lorem {
+  width: 200px;
+}
+.container_text h2 {
+  width: 200px;
+}
+.gradient {
+  color: #a54e2b;
+  font-size: 12px;
+}
+.facade {
+  position: relative;
+  margin: 0 auto;
+  background-image: url(./images/facade-of-aged-grand-cathedral-with-dome-on-river-shore-5273642.png);
+  height: 700px;
+  align-items: center;
+}
+.card {
+  position: relative;
+  background-color: white;
+  width: 500px;
+  height: 220px;
+  top: 40%;
+  left: 30%;
+  padding: 10px;
+  /* display: flex; */
+}
+.card h2 {
+  font-size: 20px;
+  width: 180px;
+}
+.quote {
+  position: relative;
+  width: 100px;
+  left: 55%;
+  top: 20%;
+  /* bottom: 20%; */
+}
+.card button {
+  padding: 15px 50px;
+  color: white;
+  background-color: #ffd2a4;
+  border-radius: 12px;
+  border: 0;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.blog {
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+.blog_box {
+  background-color: #fff5eb;
+  max-width: 200px;
+  padding: 20px;
+  margin-left: 40px;
+}
+.blog_box_container {
+  display: flex;
+}
+.color {
+  color: #a54e2b;
+  font-size: 12px;
+}
+.address {
+  margin: 0;
+}
+.header {
+  margin: 0;
+  font-style: normal;
+}
+.footer {
+  background-color: #161722;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.links a {
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: normal;
+  font-size: 12px;
+  font-style: normal;
+}
+.footer_address {
+  margin-top: 10px;
+}
+.footer_address p {
+  margin-bottom: 10px;
+}
+.footer button {
+  padding: 15px 50px;
+  background-color: #ffd2a4;
+  border-radius: 12px;
+  border: 0;
+  margin-top: 10px;
+}
+.footer input {
+  padding: 15px 50px;
+  border: 0;
+  border-radius: 12px;
+}
+.connect img {
+  margin: 10px;
+  /* align-items: flex-start; */
+}
