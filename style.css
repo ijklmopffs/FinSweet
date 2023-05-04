@@ -448,3 +448,22 @@ h5 {
   display: flex;
   gap: 25px;
 }
+.sermon_header {
+  background-image: url(./images/sermon-bg.png);
+  height: 60vh;
+  color: black;
+}
+.sermon {
+  color: black;
+}
+.upcoming_events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.margin-bottom {
+  margin-bottom: 40px;
+}
+.upcoming_container {
+  display: flex;
+}
