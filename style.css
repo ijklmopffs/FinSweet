@@ -265,7 +265,6 @@ h5 {
   top: 40%;
   left: 30%;
   padding: 10px;
-  /* display: flex; */
 }
 .card h2 {
   font-size: 20px;
@@ -276,7 +275,6 @@ h5 {
   width: 100px;
   left: 55%;
   top: 20%;
-  /* bottom: 20%; */
 }
 .card button {
   padding: 15px 50px;
@@ -355,5 +353,98 @@ h5 {
 }
 .connect img {
   margin: 10px;
-  /* align-items: flex-start; */
+}
+.about_header {
+  background-image: url(./images/vOeB66Yoriw.png);
+  height: 64vh;
+  color: black;
+}
+.about {
+  color: black;
+}
+.about_mission {
+  display: flex;
+  max-width: 350px;
+  margin: 0 auto;
+  gap: 10px;
+}
+.about_mission div {
+  margin: 10px;
+}
+.about_mission p {
+  color: gray;
+}
+.about_benefits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.about_benefits h2 {
+  font-size: 40px;
+  margin: 0;
+  margin-bottom: 25px;
+}
+.about_benefits h3 {
+  font-size: 24px;
+  margin: 0;
+  margin-top: 20px;
+}
+.about_benefits p {
+  color: gray;
+}
+.benefits_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.first_container {
+  display: flex;
+}
+.about_benefits img {
+  width: 300px;
+  height: 200px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.first_container div {
+  margin: 40px;
+  width: 200px;
+}
+
+.about_inspirational {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inspirational_box {
+  background-color: #f5f2f0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+}
+.inspirational_box p {
+  margin: 0;
+  color: gray;
+  margin-bottom: 2px;
+}
+.about_inspirational h3 {
+  font-size: 40px;
+  margin: 0;
+  margin-bottom: 25px;
+}
+.about_inspirational p {
+  font-size: 16px;
+  color: gray;
+  margin-top: 20px;
+}
+.icons {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.inspirational_box_container {
+  display: flex;
+  gap: 25px;
 }
