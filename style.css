@@ -3,12 +3,16 @@ body {
   font-family: "Roboto Condensed";
   font-weight: normal;
   font-style: normal;
+  box-sizing: border-box;
 }
 nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
   background-color: #0d0d0d;
+}
+button {
+  cursor: pointer;
 }
 nav h1 {
   color: white;
@@ -24,8 +28,12 @@ nav button {
   background-color: #ffd2a4;
   border-radius: 12px;
 }
+nav > h1 {
+  cursor: pointer;
+}
 header {
   background-image: url(./images/woman-in-orange-coat-with-black-and-brown-scarf-5418305.svg);
+  background-repeat: no-repeat;
   height: 100vh;
   position: relative;
 }
@@ -254,6 +262,7 @@ h5 {
   position: relative;
   margin: 0 auto;
   background-image: url(./images/facade-of-aged-grand-cathedral-with-dome-on-river-shore-5273642.png);
+  background-repeat: no-repeat;
   height: 700px;
   align-items: center;
 }
@@ -356,6 +365,7 @@ h5 {
 }
 .about_header {
   background-image: url(./images/vOeB66Yoriw.png);
+  background-repeat: no-repeat;
   height: 64vh;
   color: black;
 }
@@ -450,6 +460,7 @@ h5 {
 }
 .sermon_header {
   background-image: url(./images/sermon-bg.png);
+  background-repeat: no-repeat;
   height: 60vh;
   color: black;
 }
@@ -534,4 +545,166 @@ h5 {
   gap: 20px;
   margin-left: 100px;
   margin-bottom: 50px;
+}
+.blog_post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.first_blog_post img {
+  width: 700px;
+  margin-top: 10px;
+}
+.first_blog_post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 700px;
+}
+.first_blog_post h2 {
+  font-size: 30px;
+}
+.blog_post h2 {
+  margin: 0;
+  margin-bottom: 20px;
+}
+.first_blog_post p,
+.sub p,
+.sub ul {
+  color: gray;
+}
+.sub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 700px;
+}
+.sub img {
+  width: 700px;
+}
+.sub h3 {
+  font-size: 30px;
+  align-self: self-start;
+  margin: 0;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.sub_child2 {
+  letter-spacing: 1px;
+  width: 300px;
+}
+.sub h4 {
+  font-size: 24px;
+  align-self: self-start;
+  margin: 0;
+}
+.sub ul {
+  align-self: start;
+}
+.register {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.first_box {
+  width: 500px;
+}
+.first_box img {
+  width: 450px;
+}
+.first_box h2 {
+  font-size: 30px;
+}
+.register_box {
+  background-color: #f7f8fa;
+  height: 315px;
+  width: 240px;
+  padding: 20px;
+}
+.input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+.register_box button {
+  padding: 15px 40px;
+  background-color: #ffd2a4;
+  border-radius: 12px;
+  border: none;
+  margin-top: 15px;
+}
+.register_box h2 {
+  font-size: 20px;
+}
+.upcoming_sermons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.gap {
+  gap: 10px;
+}
+.extra {
+  background-color: white;
+}
+
+.contact_header {
+  background-image: url(./images/contact-bg.png);
+  background-repeat: no-repeat;
+  height: 74vh;
+}
+.contact_mid {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  background-color: #e5e5e5;
+  padding: 50px;
+  padding-bottom: 20px;
+}
+.input_field {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.contact_input {
+  border: none;
+  padding: 12px 45px;
+  width: 140px;
+}
+.excess {
+  margin-top: 0;
+}
+.address_box {
+  margin-top: 20px;
+}
+.first_address,
+.second_address {
+  margin: 0;
+  margin-bottom: 10px;
+}
+.first_address p,
+.second_address p {
+  margin: 0;
+}
+.first_address span,
+.second_address span {
+  color: gray;
+}
+.second_address {
+  margin-top: 20px;
+}
+.third_address {
+  display: flex;
+  flex-direction: column;
+}
+.third_address span {
+  margin-top: 20px;
+}
+.third_address_img {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
 }
